@@ -23,10 +23,8 @@ a:hover {
 
 
 header {
-  max-width: 100%;
   background-color: #f9f9f9;
   margin-bottom: 25px;
-  list-style: none;
   text-decoration: none;
 }
 
@@ -78,29 +76,25 @@ ul {
 display: flex;
 flex-direction: column;
 justify-content: center;
-text-align: center;
 }
 
 .portfolio,
 #contact {
   text-transform: uppercase;
-  text-align: center;
-  font-size: 16px;
   padding-top: 20px; /*review*/
   margin-top: 0;
+  font-size: 16px;
   letter-spacing: .7px;
   padding-bottom: 10px;
 }
 
 h2 {
   font-size: 1em;
-  margin-top: 10px;
   letter-spacing: .7px;
 }
 
 img {
   max-width: 100%;
-  height: auto;
   padding: 20px;
 }
 
@@ -143,7 +137,6 @@ font-size: 1em;
 .address a{
   margin-left: 30px;
   margin-right: 30px;
-  font-size: 1em;
   line-height: 1.5em;
 }
 
@@ -153,11 +146,9 @@ font-size: 1em;
 }
 
 .address {
-  text-decoration: none;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   line-height: 3em;
-  margin-bottom: 10px;
 }
 
 .footer {
@@ -282,7 +273,6 @@ h1 {
   flex-direction: row;
   text-transform: uppercase;
   font-size: .81em;
-  list-style: none;
 }
 
 .hide a{
@@ -366,7 +356,9 @@ h2, p {
 .container img {
   padding: 10px;
 }
-
+.contact {
+  margin-top: 0;
+}
 
 .footer{
   padding-left: 25px;
@@ -377,7 +369,6 @@ h2, p {
 }
 
 .hide {
-
 }
 
 
