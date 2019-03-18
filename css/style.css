@@ -81,11 +81,15 @@ justify-content: center;
 .portfolio,
 #contact {
   text-transform: uppercase;
-  padding-top: 20px; /*review*/
+  padding-top: 20px;
   margin-top: 0;
   font-size: 16px;
   letter-spacing: .7px;
   padding-bottom: 10px;
+}
+
+#contact {
+  color: #06c;
 }
 
 h2 {
@@ -153,7 +157,6 @@ font-size: 1em;
 
 .footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 25px;
@@ -164,17 +167,11 @@ font-size: 1em;
 
 .foot-name {
   text-align: left;
-  width: 50%;
-}
-
-.foot-name {
-  font-size: .85em;
+  width: 70%;
 }
 
 .foot-top {
   text-transform: uppercase;
-  width: 50%;
-  text-align: right;
   font-size: .81em;
 }
 
@@ -189,11 +186,8 @@ font-size: 1em;
 
 header {
     padding-top: 10px;
-}
+  }
 
-h1 {
-
-}
 
 .main-nav {
   display: flex;
@@ -252,10 +246,6 @@ h1 {
   padding: 10px;
 }
 
-.contact {
-
-}
-
 #contact {
   padding: 30px;
 }
@@ -273,11 +263,7 @@ h1 {
   flex-direction: row;
   text-transform: uppercase;
   font-size: .81em;
-}
-
-.hide a{
-}
-
+ }
 }
 
 
@@ -286,9 +272,6 @@ h1 {
 header {
   margin-bottom: 0;
 }
-
-.flex
-
 
 h1 {
   width: 25%;
@@ -300,7 +283,6 @@ h2, p {
   color: grey;
 }
 
-
 .main-nav {
   float: right;
   padding-top: 20px;
@@ -308,11 +290,9 @@ h2, p {
   padding-right: 35px;
 }
 
-
 #intro {
   padding: 0;
 }
-
 
 .intro {
   margin-top:0;
@@ -365,18 +345,12 @@ h2, p {
   padding-right: 25px;
 }
 
-.footer li{
-}
-
-.hide {
-}
-
 
 /* Float Clearfix*/
 
 clear::after {
   content: "";
-  diaplay: table;
+  display: table;
   clear: both;
 }
 
